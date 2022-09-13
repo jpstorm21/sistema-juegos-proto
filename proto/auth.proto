@@ -9,6 +9,11 @@ service AuthService {
     rpc Validate (ValidateRequest) returns (ValidateResponse) {}
 }
 
+message Error {
+    int32 code = 1;
+    string message = 2;
+}
+
 // Login
 
 message LoginRequest {

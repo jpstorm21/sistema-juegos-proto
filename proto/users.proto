@@ -12,6 +12,11 @@ service UsersService {
     rpc GetUserById (GetUserByIdRequest) returns (GetUserByIdResponse) {}
 }
 
+message Error {
+    int32 code = 1;
+    string message = 2;
+}
+
 message User {
     string id = 1;
     string name = 2;
