@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package users;
-
 import "commom.proto";
+
+package users;
 
 service UsersService {
     rpc CreateUser (CreateUserRequest) returns (CreateUserResponse) {}

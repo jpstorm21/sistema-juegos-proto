@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package auth;
-
 import "commom.proto";
+
+package auth;
 
 service AuthService {
     rpc Login (LoginRequest) returns (LoginResponse) {}
