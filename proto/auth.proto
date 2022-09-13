@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-import "commom.proto";
+import "common.proto";
 
 package auth;
 
